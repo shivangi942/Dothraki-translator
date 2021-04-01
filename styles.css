@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+
+body{
+    font-family: 'Yatra One', cursive;
+    background-color: var(--bg-color);
+   
+}
+
+:root{
+    --primary-color: #DC2626;
+    --secondary-color: 
+    #EF4444;
+    --bg-color: #E5E7EB;
+    --light-red: #FEF2F2;
+}
+
+.header-heading{
+    text-align: center;
+    padding: 1rem;
+    color: var(--primary-color);
+    text-shadow: 2px 2px 4px 
+    #111827;
+    font-size: 3rem;
+
+}
+
+.header-img{
+    max-width: 600px ;
+    margin: auto;
+    display: block;
+    padding: 0rem 1rem;
+    box-shadow: 3.5px 10px 10px red;
+}
+
+.section-white{
+    padding: 1rem 1rem;
+    display: block;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.section-white textarea{
+    padding: 2rem 2rem;
+    /* height: 10vh;
+    width: 90%;  */
+    text-decoration: none;
+    
+}
+
+#txt-input{
+    font-family: 'Yatra One', cursive;
+    color: var(--secondary-color);
+    border: var(--primary-color) solid 4px;
+    margin: auto;
+    height: 10vh;
+    width: 86%;
+    border-radius: 0.8rem;
+    text-decoration: none;
+    box-shadow: 5px 5px 5px black;
+}
+
+.section-offwhite{
+    padding: 2rem 1rem;
+    display: block;
+    color: var(--primary-color);
+    margin-left: 4rem;
+    margin-right: 4rem;
+    text-align: center;
+}
+
+
+#txt-output{
+    font-size: larger;
+    border: solid 1px;       width: 80%;
+    height: 10vh;         display: block;
+    margin: auto;           padding: 2rem;
+    border: var(--secondary-color) solid 4px;
+    text-decoration: none;
+    border-radius: 0.8rem;
+    background-color: var(--light-red);
+    box-shadow: 5px 5px 5px black;
+}
+
+#btn-translate{
+   padding: 0.2rem 0.5rem;
+   border-radius: 0.5rem; 
+   background-color: var(--secondary-color);
+   color: white;
+   padding: 0.5rem 1rem;
+   font-size: large;
+   font-family: 'Yatra One', cursive;
+   box-shadow: 5px 5px 5px black;
+}
+
+.button{
+    text-align: center;
+}
+
