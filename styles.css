@@ -2,7 +2,10 @@
 
 body{
     font-family: 'Yatra One', cursive;
-    background-color: var(--bg-color);
+    /* background-color: var(--bg-color); */
+
+    background-image: linear-gradient(to right, 
+    black, #4338CA);
    
 }
 
@@ -14,48 +17,67 @@ body{
     --light-red: #FEF2F2;
 }
 
+.content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
 .header-heading{
     text-align: center;
     padding: 1rem;
     color: var(--primary-color);
-    text-shadow: 2px 2px 4px 
-    #111827;
+    /* text-shadow: 2px 2px 4px 
+    #595a5e; */
+    text-shadow: 4px 3px 4px 
+    #030000;
     font-size: 3rem;
+    /* background: -webkit-linear-gradient( rgb(221, 77, 77) , rgb(223, 12, 22));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
 
 }
 
 .header-img{
-    max-width: 600px ;
+    max-width: 80vw;
     margin: auto;
     display: block;
     padding: 0rem 1rem;
     box-shadow: 3.5px 10px 10px red;
+    text-align: center;
+
+    /* img:hover {
+        transform: scale(1.2);
+    } */
+    
 }
 
 .section-white{
     padding: 1rem 1rem;
-    display: block;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    /* display: block; */
+    /* margin-left: 4rem;
+    margin-right: 4rem; */
+    margin: auto;
     margin-top: 2rem;
     text-align: center;
 }
 
 .section-white textarea{
     padding: 2rem 2rem;
-    /* height: 10vh;
-    width: 90%;  */
+    height: 10vh;
+    width: 100vw; 
     text-decoration: none;
     
 }
 
 #txt-input{
+    text-align: center;
     font-family: 'Yatra One', cursive;
     color: var(--secondary-color);
     border: var(--primary-color) solid 4px;
-    margin: auto;
+    /* margin: auto; */
     height: 10vh;
-    width: 86%;
+    width: 70vw;
     border-radius: 0.8rem;
     text-decoration: none;
     
@@ -64,19 +86,24 @@ body{
 
 .section-offwhite{
     padding: 2rem 1rem;
-    display: block;
+    /* display: block; */
     color: var(--primary-color);
-    margin-left: 4rem;
-    margin-right: 4rem;
+    /* margin-left: 4rem;
+    margin-right: 4rem; */
+    margin: auto;
     text-align: center;
 }
 
 
 #txt-output{
+    text-align: center;
     font-size: larger;
-    border: solid 1px;       width: 80%;
-    height: 10vh;         display: block;
-    margin: auto;           padding: 2rem;
+    /* border: solid 1px;       */
+    width: 70vw;
+    height: 10vh;         
+    /* display: block; */
+    /* margin: auto;            */
+    padding: 2rem;
     border: var(--secondary-color) solid 4px;
     text-decoration: none;
     border-radius: 0.8rem;

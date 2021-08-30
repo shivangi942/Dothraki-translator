@@ -29,21 +29,26 @@
 <body>
     <header>
         <h1 class="header-heading">Dothraki Translator</h1>
-        <img class="header-img" src="https://www.nydailynews.com/resizer/u-uB0cFfv9DmXwnQSeJl81Jdvxc=/800x455/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/A6P2UWCRTT3SWGJ573KFEM6CUQ.jpg"/>
     </header>
 
-    <section class="section-white">
-        <textarea id="txt-input" placeholder="Write the text that you want to translate!!"></textarea>
-    </section>
+    <div class="content">
+        <img class="header-img" src="https://www.nydailynews.com/resizer/u-uB0cFfv9DmXwnQSeJl81Jdvxc=/800x455/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/A6P2UWCRTT3SWGJ573KFEM6CUQ.jpg"/>
+        <section class="section-white">
+            <textarea id="txt-input" placeholder="Write the text that you want to translate!!"></textarea>
+        </section>
+    
+        <div class="button">
+            <button id="btn-translate">Translate</button>
+        </div>
+        <!-- <button class="button" id="btn-translate">Translate</button> -->
+    
+        <section class="section-offwhite">
+            <div id="txt-output"></div>
+        </section>
 
-    <div class="button">
-        <button id="btn-translate">Translate</button>
     </div>
-    <!-- <button class="button" id="btn-translate">Translate</button> -->
 
-    <section class="section-offwhite">
-        <div id="txt-output"></div>
-    </section>
+   
     
     <script src="app.js" type="text/javascript"></script>
 </body>
